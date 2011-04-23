@@ -198,3 +198,7 @@ PRODUCT_COPY_FILES += \
    vendor/nvidia/harmony/proprietary/libopencore_player.so:system/lib/libopencore_player.so \
    vendor/nvidia/harmony/proprietary/libopencore_rtspreg.so:system/lib/libopencore_rtspreg.so \
    vendor/nvidia/harmony/proprietary/libopencore_rtsp.so:system/lib/libopencore_rtsp.so
+
+# Stagefright for harmony
+PRODUCT_COPY_FILES += \
+   vendor/nvidia/harmony/proprietary/libstagefrighthw.so:system/lib/libstagefrighthw.so
